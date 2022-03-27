@@ -1,0 +1,211 @@
+:root {
+  --primary-color: #015cbf;
+  --secondary-color: #f8f9fa;
+  --heading-font-family: "Halant", serif;
+  --para-font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  font-family: var(--para-font-family);
+}
+
+h1 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 50px;
+  color: #233142;
+  margin: 30px 0;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 26px;
+  color: #233142;
+  opacity: 90%;
+  text-align: center;
+  margin: 0 0 60px;
+}
+
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  opacity: 90%;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.banner {
+  background-image: url(/src/images/forensics-banner.jpeg);
+  width: 100%;
+}
+/*---------------------------------
+# Navigation
+----------------------------------- */
+
+.logo {
+  margin: 20px 20px 20px 50px;
+  padding: 5px;
+}
+
+.welcome {
+  margin-top: 30px;
+}
+
+.nav-link {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.dropdown-item {
+  font-family: var(--heading-font-family);
+  font-size: smaller;
+}
+
+.btn-sm {
+  font-family: var(--heading-font-family);
+  font-size: smaller;
+  color: var(--primary-color);
+  margin-right: 100px;
+}
+
+.img-fluid {
+  border-radius: 8px;
+  padding: 5px;
+  margin-top: 30px;
+}
+.client-btn {
+  margin: 0px 30px 30px;
+  color: #0092ca;
+  background-color: #fcfafa;
+  outline: 1px solid;
+  width: 130px;
+  height: 50px;
+}
+
+/*----------------------------
+   About Nansen Forensics Section
+   ------------------------------  */
+
+.nansen-forensics {
+  margin-top: 50px;
+}
+
+.p-about-nansen {
+  text-align: justify;
+  margin-right: 30px;
+}
+
+/* ------------------------------
+ Services Section 
+ --------------------------------*/
+
+.services {
+  margin-top: 30px;
+}
+hr {
+  width: 180px;
+  color: #0092ca;
+}
+.p-services {
+  width: 98%;
+  text-align: justify;
+  margin-bottom: 3px;
+}
+
+.services-btn {
+  color: #0092ca;
+  background-color: white;
+  outline-color: #0092ca;
+  outline: 1px solid;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+/* ----------------------------------
+Founders Section
+-------------------------------------*/
+
+.h-founders {
+  margin-top: 60px;
+}
+
+.p-founders {
+  font-weight: bold;
+}
+
+.p-text {
+  text-align: justify;
+  margin-right: 30px;
+}
+
+.founders-image {
+  margin-top: 140px;
+  max-width: 80%;
+  max-width: auto;
+}
+
+/* -----------------------------------
+Partners Section
+-------------------------------------- */
+
+.partners {
+  margin-top: 50px;
+}
+
+/* ---------------------------------------
+Footer Section - to be completed
+------------------------------------------- */
+
+/* -----------------------------------------
+Responsiveness
+-------------------------------------------- */
+@media (max-width: 990px) {
+  .btn-sm {
+    display: none;
+  }
+  .card-text {
+    display: none;
+  }
+
+  .card-title {
+    font-size: 7px;
+    font-weight: 700;
+  }
+  p,
+  .p-about-nansen,
+  .p-services,
+  .p-text,
+  .p-founders,
+  .p-about-nansen,
+  .partners {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .services {
+    margin: auto;
+  }
+  h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  h2,
+  h3,
+  .h-founders {
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+  }
+}
