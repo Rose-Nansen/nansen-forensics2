@@ -194,11 +194,11 @@ Contact Page
   margin: 15px;
 }
 
-.phone {
+.phone-contact {
   margin: 15px;
 }
 
-.address {
+.address-contact {
   margin: 15px;
 }
 
@@ -215,27 +215,34 @@ Footer Section - to be completed
 }
 .nansen {
   color: #233142;
-  margin: 0px 13px 0px;
+  margin: 10px 100px 0px;
+}
+
+.address {
+  margin: 10px 100px 0px;
 }
 
 .fab {
   color: var(--primary-color);
   font-size: 20px;
-  margin-left: 13px;
+  margin-left: 10px;
+  text-align: center;
   
   }
 
-  .email {
-    margin: 3px 15px;
-    text-decoration: none;
-    line-height: 10px;
-    
+  .phone {
+
+    margin: 10px 100px 0px;
   }
 
-  .footer-newsletter {
-    display: inline;
-    
+  .email {
+    margin: 3px ;
+    text-decoration: none;
+    line-height: 10px;
+       
   }
+
+  
 /* -----------------------------------------
 Responsiveness
 -------------------------------------------- */
