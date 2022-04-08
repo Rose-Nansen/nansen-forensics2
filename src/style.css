@@ -215,7 +215,7 @@ Footer Section - to be completed
 }
 .nansen {
   color: #233142;
-  margin: 10px 100px 0px;
+  margin: 3px 100px 0px;
 }
 
 .address {
@@ -236,13 +236,36 @@ Footer Section - to be completed
   }
 
   .email {
-    margin: 3px ;
+    margin: 3px;
     text-decoration: none;
     line-height: 10px;
+    
        
   }
 
+  ul {
+    list-style-type: none;
   
+  }
+
+.copyright {
+  margin: 3px;
+  text-align: center;
+}
+  .footer-links {
+    text-decoration: none;
+    color:grey;
+    text-align: left;
+       
+  }
+
+  .footer-button {
+ margin-left: 280px;
+  }
+  .footer-subheading {
+    margin: 5px 25px;
+    
+  }
 /* -----------------------------------------
 Responsiveness
 -------------------------------------------- */
