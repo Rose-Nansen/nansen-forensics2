@@ -248,6 +248,7 @@ Vacancies Page
 .opportunities {
 color:#0092ca;
 text-decoration: none;
+}
 
 
 /* ---------------------------------------
@@ -283,8 +284,7 @@ Footer Section - to be completed
     margin: 3px;
     text-decoration: none;
     line-height: 10px;
-    
-       
+           
   }
 
 
@@ -299,15 +299,13 @@ Footer Section - to be completed
        
   }
 
-  .footer-button {
- margin-left: 280px;
-  }
+ 
   .footer-subheading {
     margin: 5px 25px;
     
   }
 /* -----------------------------------------
-Responsiveness
+Responsiveness - main page
 -------------------------------------------- */
 @media (max-width: 990px) {
   .btn-sm {
@@ -347,4 +345,61 @@ Responsiveness
     text-align: center;
     margin: auto;
   }
+}
+
+ .footer-button {
+  display: flex;
+  margin: 3px 10px;
+  
+  }
+/* -----------------------------------------
+Responsiveness - vacancies page
+-------------------------------------------- */
+@media (max-width: 990px) {
+ 
+ 
+ h4 {
+   text-align: center;
+   margin: auto;
+   
+ } 
+
+ .why-work {
+   font-size: 20px;
+ text-align:center;
+ margin-top: 50px;
+ }
+ 
+
+
+ .footer-subheading
+  {
+   
+   text-align: center;
+   margin-top: 20px;
+ }
+
+  .social-links,
+ .footer-links {
+display: block;
+  text-align: center;
+ }
+.vacancies,
+ .vacancy {
+display: none;
+ }
+  .v-work {
+    display: none;
+  }
+  
+  .copyright {
+    margin-top: 25px;
+  }
+ }
+ 
+ /* -----------------------------------------
+Responsiveness - contact page
+-------------------------------------------- */
+@media (max-width: 990px) {
+  .submit-button
 }
