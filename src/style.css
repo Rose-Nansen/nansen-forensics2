@@ -45,6 +45,12 @@ p {
   font-size: 18px;
 }
 
+
+  ul {
+    list-style-type: none;
+  
+  }
+
 .banner {
   background-image: url(/src/images/forensics-banner.jpeg);
   width: 100%;
@@ -206,6 +212,44 @@ Contact Page
   margin: 15px;
 }
 
+/* -----------------------------------------------
+Vacancies Page 
+---------------------------------------------------*/
+.container-work {
+  margin: 0px 100px 50px;
+  text-align: justify;
+ 
+}
+.vacancies {
+  display: inline-block;
+  margin: 110px 150px 0px 100px;
+  width: 1000px;
+}
+
+.vacancy {
+  line-height: 7px;
+  padding: 0px 10px;
+  font-size: smaller;
+  
+}
+
+.why-work {
+  text-align: left;
+  margin: 100px 1px 10px;
+}
+.v-subheading {
+  text-align: center;
+} 
+
+.v-work {
+  border-radius:5px;
+}
+
+.opportunities {
+color:#0092ca;
+text-decoration: none;
+
+
 /* ---------------------------------------
 Footer Section - to be completed
 ------------------------------------------- */
@@ -243,10 +287,6 @@ Footer Section - to be completed
        
   }
 
-  ul {
-    list-style-type: none;
-  
-  }
 
 .copyright {
   margin: 3px;
