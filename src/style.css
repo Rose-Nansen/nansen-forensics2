@@ -45,11 +45,9 @@ p {
   font-size: 18px;
 }
 
-
-  ul {
-    list-style-type: none;
-  
-  }
+ul {
+  list-style-type: none;
+}
 
 .banner {
   background-image: url(/src/images/forensics-banner.jpeg);
@@ -210,7 +208,6 @@ Contact Page
 
 .maps {
   margin: 15px;
-  
 }
 
 /* -----------------------------------------------
@@ -219,7 +216,6 @@ Vacancies Page
 .container-work {
   margin: 0px 100px 50px;
   text-align: justify;
- 
 }
 .vacancies {
   display: block;
@@ -231,7 +227,6 @@ Vacancies Page
   line-height: 7px;
   padding: 0px 10px;
   font-size: smaller;
-  
 }
 
 .why-work {
@@ -240,24 +235,22 @@ Vacancies Page
 }
 .v-subheading {
   text-align: center;
-} 
+}
 
 .v-work {
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .opportunities {
-color:#0092ca;
-text-decoration: none;
+  color: #0092ca;
+  text-decoration: none;
 }
-
 
 /* ---------------------------------------
 Footer Section - to be completed
 ------------------------------------------- */
 .footer {
   width: 100%;
-  
 }
 .nansen {
   color: #233142;
@@ -273,40 +266,32 @@ Footer Section - to be completed
   font-size: 20px;
   margin-left: 10px;
   text-align: center;
-  
-  }
+}
 
-  .phone {
+.phone {
+  margin: 10px 100px 0px;
+}
 
-    margin: 10px 100px 0px;
-  }
-
-  .email {
-    margin: 3px;
-    text-decoration: none;
-    line-height: 10px;
-           
-  }
-
+.email {
+  margin: 3px;
+  text-decoration: none;
+  line-height: 10px;
+}
 
 .copyright {
   margin: 3px;
   text-align: center;
 }
-  .footer-links {
-    text-decoration: none;
-    color:grey;
-    text-align: left;
-       
-  }
+.footer-links {
+  text-decoration: none;
+  color: grey;
+  text-align: left;
+}
 
- 
-  .footer-subheading {
-    margin: 5px 25px;
-    
-  }
+.footer-subheading {
+  margin: 5px 25px;
+}
 
-  
 /* -----------------------------------------
 Responsiveness - main page
 -------------------------------------------- */
@@ -350,63 +335,53 @@ Responsiveness - main page
   }
 }
 
- .footer-button {
+.footer-button {
   display: flex;
   margin: 3px 10px;
-  
-  }
+}
 /* -----------------------------------------
 Responsiveness - vacancies page
 -------------------------------------------- */
 @media (max-width: 990px) {
- 
- 
- h4 {
-   text-align: center;
-   margin: auto;
-   
- } 
+  h4 {
+    text-align: center;
+    margin: auto;
+  }
 
- .why-work {
-   font-size: 20px;
- text-align:center;
- margin-top: 50px;
- }
- 
+  .why-work {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
 
-
- .footer-subheading
-  {
-   
-   text-align: center;
-   margin-top: 20px;
- }
+  .footer-subheading {
+    text-align: center;
+    margin-top: 20px;
+  }
 
   .social-links,
- .footer-links {
-display: block;
-  text-align: center;
- }
-.vacancies,
- .vacancy {
-display: none;
- }
+  .footer-links {
+    display: block;
+    text-align: center;
+  }
+  .vacancies,
+  .vacancy {
+    display: none;
+  }
   .v-work {
     display: none;
   }
-  
+
   .copyright {
     margin-top: 25px;
   }
- }
- 
- /* -----------------------------------------
+}
+
+/* -----------------------------------------
 Responsiveness - contact page
 -------------------------------------------- */
 @media (max-width: 990px) {
   .submit-button {
     display: block;
-    
-    
   }
 }
