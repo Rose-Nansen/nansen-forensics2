@@ -130,9 +130,8 @@ hr {
 }
 
 .services-btn {
-  color: #0092ca;
-  background-color: white;
-  outline-color: #0092ca;
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
   outline: 1px solid;
   width: 150px;
   margin-top: 30px;
