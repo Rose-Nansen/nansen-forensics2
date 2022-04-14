@@ -247,7 +247,15 @@ Vacancies Page
 }
 
 /* ---------------------------------------
-Footer Section - to be completed
+Quote Page
+------------------------------------------- */
+.quote-subheading {
+  text-align: center;
+  font-size: 32px;
+  margin: 40px;
+}
+/* ---------------------------------------
+Footer Section 
 ------------------------------------------- */
 .footer {
   width: 100%;
