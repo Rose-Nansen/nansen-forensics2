@@ -116,6 +116,7 @@
           <h4 style="margin: 20px;">Details for quote:</h4>
           <form>
              <div class="form-group col-6">
+
       <input type="text" class="form-control" placeholder="First name">
     </div>
     <div class="form-group col-6">
