@@ -146,12 +146,17 @@
     <label for="textarea">Your message</label>
     <textarea class="form-control" id="textarea" rows="6"></textarea>
   </div>
+</form>
+
   <div class="contact-button col-8">
+    <form id="form">
    <button class="btn btn-sm btn-outline-primary submit-button" type="submit">
           Submit Request
         </button>
+       
         </div>
            </form>
+            
          
           <div class="row mt-3">
             <div class="col-lg">
