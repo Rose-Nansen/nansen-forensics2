@@ -271,11 +271,13 @@ Digital Forensic Services Page
 ------------------------------------------- */
 .write-upL {
   text-align: justify;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 .write-upR {
   text-align: justify;
 }
+
+
  ---------------------------------------
 Footer Section 
 ------------------------------------------- */
@@ -415,3 +417,30 @@ Responsiveness - contact page
     display: block;
   }
 }
+
+/* -----------------------------------------
+Responsiveness - digital forensic services page
+-------------------------------------------- */
+@media (max-width: 990px) {
+ .s-headings {
+      font-size: 14px;
+    text-align: center;
+    padding: 10px;
+     
+    
+ }
+ .write-upL,
+ .write-upR, 
+ .s-questions,
+ 
+ .s-list  {
+   margin-left: 10px;
+   text-justify: center;
+   font-size: 13px;
+    }
+   
+}
+
+
+  
+
