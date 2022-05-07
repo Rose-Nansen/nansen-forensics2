@@ -341,13 +341,18 @@ Responsiveness - main page
   .btn-sm {
     display: none;
   }
+
+  .card-body {
+    padding: 2px;
+    
+  }
   .card-text {
     display: none;
   }
 
   .card-title {
-    font-size: 7px;
-    font-weight: 700;
+    font-size: 8px;
+    font-weight: 900;
   }
   p,
   .p-about-nansen,
@@ -358,7 +363,12 @@ Responsiveness - main page
   .partners {
     font-size: 16px;
     text-align: center;
-  }
+     }
+
+     .services-link {
+       font-size: 10px;
+       
+     }
 
   .services {
     margin: auto;
@@ -375,11 +385,16 @@ Responsiveness - main page
     text-align: center;
     margin: auto;
   }
-}
+
 
 .footer-button {
   display: flex;
   margin: 3px 10px;
+}
+
+.footer-newsletter {
+  display: none;
+}
 }
 /* -----------------------------------------
 Responsiveness - vacancies page
