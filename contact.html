@@ -108,7 +108,7 @@
 <h1 class="contact-heading">Make an Inquiry</h1>
       
           <h2 class="contact-subheading">Contact Us</h2>
-           <form>
+           <form action="send.php" method="post">
              <div class="form-group col-6">
       <input type="text" class="form-control" placeholder="First name">
     </div>
@@ -123,11 +123,11 @@
     <div class="form-group col-8">
     <label for="textarea">Your message</label>
     <textarea class="form-control" id="textarea" rows="6"></textarea>
-  </div>
-  <div class="contact-button col-8">
-   <button class="btn btn-sm btn-outline-primary submit-button" type="submit">
-          Submit message
-        </button>
+  
+  <div class="contact-button col-6"> 
+  
+  <input class="btn btn-outline-primary send-button" type="submit" value="Send">  
+          </button>
         </div>
            </form>
     <br />     

@@ -188,9 +188,10 @@ Contact Page
 .form-group {
   margin: 15px;
 }
-.contact-button {
-  text-align: center;
-  margin: 15px 0px 20px 50px;
+.send-button {
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
 }
 .contact-heading {
   text-align: center;
