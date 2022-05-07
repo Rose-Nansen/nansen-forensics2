@@ -264,6 +264,10 @@ Quote Page
   font-size: 32px;
   margin: 40px;
 }
+
+.submit-button {
+  margin-left: 15px;
+}
 /* ---------------------------------------
 Clients Page
 ------------------------------------------- */
