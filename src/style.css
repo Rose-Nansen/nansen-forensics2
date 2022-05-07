@@ -141,10 +141,15 @@ hr {
   margin-top: 30px;
 }
 
-
 .card-text {
   font-size: 16px;
+ 
 }
+
+.services-link {
+  text-decoration: none;
+  color: #0092ca;
+ }
 
 /* ----------------------------------
 Founders Section
@@ -276,6 +281,8 @@ Digital Forensic Services Page
 .write-upR {
   text-align: justify;
 }
+
+
 
 
  ---------------------------------------
