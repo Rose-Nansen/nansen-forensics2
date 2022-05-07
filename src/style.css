@@ -320,15 +320,17 @@ Footer Section
 .copyright {
   margin: 3px;
   text-align: center;
+  font-size: 11px;
 }
 .footer-links {
   text-decoration: none;
   color: grey;
-  text-align: left;
+margin-right: 25px;
+
 }
 
 .footer-subheading {
-  margin: 5px 25px;
+  margin: 4px 30px;
 }
 
 /* -----------------------------------------
